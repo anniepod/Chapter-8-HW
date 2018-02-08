@@ -1,8 +1,8 @@
 def reverse(word):
-    new = ""
+    newword = ""
     for i in range(len(word)):
-        new += word[len(word)-i-1]
-    return print(new)
+        newword += word[len(word)-i-1]
+    return newword
 
 
 
@@ -10,4 +10,4 @@ def mirror(word):
     return word + reverse(word)
 
 
-mirror("dog")
+print(mirror("dog"))
