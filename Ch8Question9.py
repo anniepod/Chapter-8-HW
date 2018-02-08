@@ -6,6 +6,6 @@ def remove_letter(letter, word):
     for ch in word:
         if ch != letter:
             new += ch
-    return print(new)
+    return new
 
 remove_letter("a", "apple")
